@@ -1,0 +1,5 @@
+from pySmartDL import SmartDL
+url = "https://www.upload.ee/download/17484985/2b3da257e4d91fdb7ac3/lod.txt"
+fin = "C:\\Temp\\1.txt"
+obj = SmartDL(url, fin, progress_bar=False)
+obj.start()
